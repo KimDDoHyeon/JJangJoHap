@@ -5,4 +5,13 @@
     <string name="main_ranking_hate">싫어요순</string>
     <string name="main_rankign_good">좋아요순</string>
     <string name="crown">Ranking Image</string>
+    <string name="all">전체</string>
+    <string name="naembi">냄비</string>
+    <string name="airfryer">에어프라이어</string>
+    <string name="refri">냉장고</string>
+    <string name="pan">후라이팬</string>
+    <string name="micro">전자레인지</string>
+    <string name="oven">오븐</string>
+    <string name="noMachine">No기계</string>
+
 </resources>
