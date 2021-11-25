@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Jjangjohap</string>
+    <string name="MainTitle">짱조합</string>
+    <string name="main_ranking_title">랭킹</string>
+    <string name="main_ranking_hate">싫어요순</string>
+    <string name="main_rankign_good">좋아요순</string>
+    <string name="crown">Ranking Image</string>
 </resources>
