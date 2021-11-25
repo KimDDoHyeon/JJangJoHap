@@ -1,5 +1,5 @@
 # JJangJoHap
-
+<br />
 커밋 및 머지 시 주의해야 할 점
 .idea/misc.xml 파일은 커밋하지 마세요!! 중요합니다!!!!!!
 이름을 지을 때는 이상한 이름으로 짓지 마세요. ex) aaaa, tttt, abc, qwer 등등
