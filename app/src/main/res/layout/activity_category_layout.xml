@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Category_Layout">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/MainTitle"
+            android:textColor="#000111"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:tabIndicatorColor="@color/main_color"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/main_color"
+        app:tabTextColor="#111111">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_pan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pan" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_naembi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/naembi" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_refri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/refri" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_micro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/micro" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_oven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oven" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_airfryer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/airfryer" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/noMachine" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/write_button"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@android:drawable/ic_menu_edit" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
