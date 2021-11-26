@@ -63,8 +63,8 @@
 
                 <ImageView
                     android:id="@+id/imageView2"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
 
                     android:layout_marginStart="32dp"
                     app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName"
@@ -93,16 +93,17 @@
                     <LinearLayout
                         android:layout_width="100dp"
                         android:layout_height="match_parent"
+                        android:baselineAligned="false"
                         android:orientation="vertical">
 
                         <ImageView
                             android:id="@+id/ctg_all"
                             android:layout_width="match_parent"
-                            android:layout_height="80dp"
+                            android:layout_height="72dp"
                             android:background="@drawable/imga_text_button_shape"
+                            android:clickable="true"
                             android:scaleType="fitCenter"
                             app:srcCompat="@drawable/all"
-                            android:clickable="true"
                             tools:ignore="SpeakableTextPresentCheck" />
 
                         <TextView
@@ -125,7 +126,7 @@
                         <ImageView
                             android:id="@+id/ctg_pan"
                             android:layout_width="match_parent"
-                            android:layout_height="80dp"
+                            android:layout_height="72dp"
                             android:background="@drawable/imga_text_button_shape"
                             android:scaleType="fitCenter"
                             app:srcCompat="@drawable/pan"
@@ -149,7 +150,7 @@
                         <ImageView
                             android:id="@+id/ctg_naembi"
                             android:layout_width="match_parent"
-                            android:layout_height="80dp"
+                            android:layout_height="72dp"
                             android:background="@drawable/imga_text_button_shape"
                             android:scaleType="fitCenter"
                             app:srcCompat="@drawable/naembi"
@@ -173,7 +174,7 @@
                         <ImageView
                             android:id="@+id/ctg_refri"
                             android:layout_width="match_parent"
-                            android:layout_height="80dp"
+                            android:layout_height="72dp"
                             android:background="@drawable/imga_text_button_shape"
                             android:scaleType="fitCenter"
                             app:srcCompat="@drawable/refrigerator"
@@ -211,7 +212,7 @@
                         <ImageView
                             android:id="@+id/ctg_micro"
                             android:layout_width="match_parent"
-                            android:layout_height="80dp"
+                            android:layout_height="72dp"
                             android:background="@drawable/imga_text_button_shape"
                             android:scaleType="fitCenter"
                             app:srcCompat="@drawable/microwave"
@@ -235,7 +236,7 @@
                         <ImageView
                             android:id="@+id/ctg_oven"
                             android:layout_width="match_parent"
-                            android:layout_height="80dp"
+                            android:layout_height="72dp"
                             android:background="@drawable/imga_text_button_shape"
                             android:scaleType="fitCenter"
                             app:srcCompat="@drawable/oven"
@@ -259,7 +260,7 @@
                         <ImageView
                             android:id="@+id/ctg_airfryer"
                             android:layout_width="match_parent"
-                            android:layout_height="80dp"
+                            android:layout_height="72dp"
                             android:background="@drawable/imga_text_button_shape"
                             android:scaleType="fitCenter"
                             app:srcCompat="@drawable/airfryer"
@@ -283,7 +284,7 @@
                         <ImageView
                             android:id="@+id/ctg_no"
                             android:layout_width="match_parent"
-                            android:layout_height="80dp"
+                            android:layout_height="72dp"
                             android:background="@drawable/imga_text_button_shape"
                             android:scaleType="fitCenter"
                             app:srcCompat="@drawable/cross"
@@ -329,18 +330,17 @@
 
                 <ImageView
                     android:id="@+id/crown"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="11dp"
-                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
                     android:contentDescription="@string/crown"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/good_button"
-                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintHorizontal_bias="0.128"
                     app:layout_constraintStart_toEndOf="@+id/Ranking"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0"
                     app:srcCompat="@drawable/crown" />
 
                 <Button
