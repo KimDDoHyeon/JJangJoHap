@@ -2,7 +2,9 @@ package com.example.jjangjohap;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -33,6 +35,70 @@ public class MainActivity extends AppCompatActivity {
         name_oven = findViewById(R.id.name_oven);
         name_airfryer = findViewById(R.id.name_airfryer);
         name_no = findViewById(R.id.name_no);
+
+        ctg_all.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent res_all = new Intent(getApplicationContext(), Category_Layout.class);
+                startActivity(res_all);
+            }
+        });
+
+        ctg_naembi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent res_naembi = new Intent(getApplicationContext(), Category_Layout.class);
+                startActivity(res_naembi);
+            }
+        });
+
+        ctg_pan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent res_pan = new Intent(getApplicationContext(), Category_Layout.class);
+                startActivity(res_pan);
+            }
+        });
+
+        ctg_refri.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent res_refri = new Intent(getApplicationContext(), Category_Layout.class);
+                startActivity(res_refri);
+            }
+        });
+
+        ctg_micro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent res_micro = new Intent(getApplicationContext(), Category_Layout.class);
+                startActivity(res_micro);
+            }
+        });
+
+        ctg_oven.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent res_oven = new Intent(getApplicationContext(), Category_Layout.class);
+                startActivity(res_oven);
+            }
+        });
+
+        ctg_airfryer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent res_airfryer = new Intent(getApplicationContext(), Category_Layout.class);
+                startActivity(res_airfryer);
+            }
+        });
+
+        ctg_no.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent res_refri = new Intent(getApplicationContext(), Category_Layout.class);
+                startActivity(res_refri);
+            }
+        });
 
     }
 }

@@ -321,7 +321,6 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
-                    android:layout_mrginBottom="26dp"
                     android:text="@string/main_ranking_title"
                     android:textColor="#111111"
                     android:textSize="24sp"
